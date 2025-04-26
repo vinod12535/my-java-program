@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class calculator1{
+    public int  add(int a, int b){
+        return a+b;}
+    public int sub(int a, int b){
+        return a-b;}
+    public int mult(int a, int b){
+        return a*b;}
+    public int div(int a, int b){
+        return a/b;}
+        public class SRPExample{
+            public static void main(String args[]){
+                calculator1 c = new calculator1();
+                Scanner scan = new Scanner(System.in);
+                System.out.println("enter the value of a and b");
+                int a = scan.nextInt();
+                int b = scan.nextInt();
+                System.out.println("addition of two integers="+c.add(a,b));
+                System.out.println("substraction of two integers="+c.sub(a,b));
+                System.out.println("multiplication of two integers="+c.mult(a,b));
+                System.out.println("division of two integers="+c.div(a,b));
+            }
+        }
+        
+    }
+
